@@ -1,0 +1,127 @@
+body {
+  overflow: hidden !important;
+  font-size: 13px;
+}
+
+.content {
+  position: absolute;
+  padding: 20px 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.chat-content {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  padding: 0;
+  background-color: #ebebeb;
+  /*  border-radius: 20px; */
+  overflow: hidden;
+}
+
+.box-actions {
+  background-color: #eeeeee;
+  padding: 10px 15px;
+  color: #343a40;
+  /*  margin-top: 7px; */
+}
+
+.box-actions input {
+  outline: none;
+  width: 100%;
+  padding: 10px 3rem 10px 15px;
+  font-size: 13px;
+  color: #6c757d;
+  border: 1px solid transparent;
+}
+
+.box-actions input:focus {
+  border-color: #6610f2;
+}
+
+.form-icons {
+  position: absolute;
+  margin-top: -10px;
+  right: 1.5rem;
+  color: #6610f2;
+  cursor: pointer;
+}
+
+.form-icons i {
+  margin: 0 5px;
+  font-size: 30px;
+}
+
+.icon-actions a {
+  background-color: #e1dfdf;
+  color: #6610f2;
+  text-decoration: none;
+  padding: 8px 10px;
+  font-size: 18px !important;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 100%;
+  transition: all 0.4s;
+  -webkit-transition: 0.4s;
+}
+
+.icon-actions a:hover {
+  background: #6610f2 !important;
+  color: #f5f5f5;
+}
+
+.chat-item {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding: 20px 20px 10px 20px;
+  overflow: auto !important;
+}
+
+.online,
+.offline {
+  position: absolute;
+  background-color: #32ca55;
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  border: 1.5px solid #ddd;
+  margin-top: 20px;
+  margin-left: -4px;
+  z-index: 111;
+}
+
+.offline {
+  background-color: #dc3545 !important;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 15px 15px;
+  font-size: 20px;
+  height: 55px;
+  color: #6610f2;
+}
+
+.avatar {
+  background-color: #6610f2;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  margin-right: 5px;
+  overflow: hidden;
+}
+
+.user-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  margin-right: 5px;
+  overflow: hidden;
+}
+.user-img img {
+  width: 100%;
+  height: 100%;
+}

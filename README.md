@@ -1,24 +1,4 @@
-# chat
+EasyChat
+Author: Rosario Massango - Fullstack developer
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Youtube: https://www.youtube.com/channel/UClwY9aG4dSwCelio3OiqRXw
