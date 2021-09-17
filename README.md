@@ -4,6 +4,7 @@
 - Vue
 - HTML5
 - CSS
+- Typescript
 - Javascript
 
 ### Get stated
@@ -12,5 +13,5 @@
 - Run yarn install or npm install
 
 ### Run application
-- Run yarn dev ou npm dev
+- Run yarn serve or npm serve
 
