@@ -1,5 +1,8 @@
 ## EasyChat Vue - App
 
+![1628090837380](https://user-images.githubusercontent.com/35292468/133789671-a7eb3494-f85c-4253-adb8-dd9784eab27a.jpeg)
+
+
 ### Used Features
 - Vue
 - HTML5
